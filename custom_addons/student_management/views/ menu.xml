@@ -1,0 +1,8 @@
+<odoo>
+    <menuitem id="student_root_menu" name="Students"/>
+
+    <menuitem id="student_menu"
+              name="Student List"
+              parent="student_root_menu"
+              action="action_student"/>
+</odoo>
