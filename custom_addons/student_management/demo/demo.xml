@@ -1,12 +1,12 @@
 <odoo>
     <data noupdate="1">
-      <record id="demo_student_1" model="student.management">
+  <record id="demo_student_1" model="student.student">
         <field name="name">Alice</field>
         <field name="age">20</field>
         <field name="gender">female</field>
       </record>
 
-      <record id="demo_student_2" model="student.management">
+  <record id="demo_student_2" model="student.student">
         <field name="name">Bob</field>
         <field name="age">22</field>
         <field name="gender">male</field>
