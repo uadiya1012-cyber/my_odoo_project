@@ -7,7 +7,7 @@
         Student Management Module
     """,
     'author': 'Your Name',
-    'website': '',  # ✅ Хоосон эсвэл өөрийн жинхэнэ website оруулах
+    'website': '',
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
@@ -17,5 +17,5 @@
     'installable': True,
     'application': True,
     'auto_install': False,
-    'license': 'LGPL-3',  # ✅ License нэмэх
+    'license': 'LGPL-3',
 }
